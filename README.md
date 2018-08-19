@@ -7,7 +7,7 @@ On peut s'inspirer ce [ce site](https://git-scm.com/book/fr/v2/Git-sur-le-serveu
 
 ## 🖥 Sur sa console:
 
-* **Vérifier si vous avez une clé de renseignée:**
+* Vérifier si vous avez une clé de renseignée:
 `$ cat ~/.ssh/id_rsa.pub` 
 
 `* Si oui on devrait avoir un résultat:
