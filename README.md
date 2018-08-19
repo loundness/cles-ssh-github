@@ -31,10 +31,4 @@ On peut s'inspirer ce [ce site](https://git-scm.com/book/fr/v2/Git-sur-le-serveu
 * Lors du premier push git vous demande le mot de passe de votre compte et après il n'y a plus qu'à faire un "push origin master" et ça roule
 
 
-1. Une puce
-
-2. Une puce bis
-
-  `1 Une sous-puce`
-  `2 Une sous-puce bis`
-3. Une troisieme puce
+by @loundness
