@@ -10,12 +10,12 @@ On peut s'inspirer ce [ce site](https://git-scm.com/book/fr/v2/Git-sur-le-serveu
 * **Vérifier si vous avez une clé de renseignée:**
 `$ cat ~/.ssh/id_rsa.pub` 
 
-* ** Si oui on devrait avoir un résultat:`
+* Si oui on devrait avoir un résultat:`
 
 `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiew3W+4ieWBpzUEXeHfIjpfcw1kLL9i/3cWirHufVQhJFGg.....et qui finit par l'adresse mail de son compte github'`**
 
 
-* ** Si non il faut en générer une avec cette commande:`
+* Si non il faut en générer une avec cette commande:`
 
 `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`**
 
@@ -31,4 +31,10 @@ On peut s'inspirer ce [ce site](https://git-scm.com/book/fr/v2/Git-sur-le-serveu
 * Lors du premier push git vous demande le mot de passe de votre compte et après il n'y a plus qu'à faire un "push origin master" et ça roule
 
 
+1. Une puce
+
+2. Une puce bis
+
+  `1 Une sous-puce`
+  `2 Une sous-puce bis`
 
