@@ -10,14 +10,14 @@ On peut s'inspirer ce [ce site](https://git-scm.com/book/fr/v2/Git-sur-le-serveu
 * **Vérifier si vous avez une clé de renseignée:**
 `$ cat ~/.ssh/id_rsa.pub` 
 
-* Si oui on devrait avoir un résultat:
+`* Si oui on devrait avoir un résultat:
 
-`ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiew3W+4ieWBpzUEXeHfIjpfcw1kLL9i/3cWirHufVQhJFGg.....et qui finit par l'adresse mail de son compte github'`
+`ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiew3W+4ieWBpzUEXeHfIjpfcw1kLL9i/3cWirHufVQhJFGg.....et qui finit par l'adresse mail de son compte github'``
 
 
-* Si non il faut en générer une avec cette commande:
+`* Si non il faut en générer une avec cette commande:
 
-`$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+`$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"``
 
 * Puis copiez la clé '$ cat ~/.ssh/id_rsa.pub' et renseignez-la dans votre compte github.
 
